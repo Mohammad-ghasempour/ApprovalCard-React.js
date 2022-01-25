@@ -6,7 +6,7 @@ import faker from "faker";
 
 const App = () => {
     return (
-        <div className="ui container comments">
+        <div className="ui container comments" >
             <ApprovalCard>
                 <ComponentDetail author="Mohammad"
                 time="Today at 4:45PM"
@@ -14,13 +14,13 @@ const App = () => {
             </ApprovalCard>
 
             <ApprovalCard>
-                <ComponentDetail author="Dan"
+                <ComponentDetail author="Bouvet"
                 time={faker.address.timeZone()}
                 content="Stavager is Nice"   />
             </ApprovalCard>
 
             <ApprovalCard>
-                <ComponentDetail author="Mette"
+                <ComponentDetail author="Papirfly"
                 time="Friday at 9:05PM"
                 content={ faker.address.city() + " is good"}   />
             </ApprovalCard>
